@@ -1,38 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐍 Snake Game
 
-## Getting Started
+Un jeu Snake simple développé avec **Next.js**, **TypeScript**, et **Tailwind CSS**. Contrôlez le serpent avec les flèches du clavier, mangez les pommes, et essayez d'obtenir le meilleur score possible !
 
-First, run the development server:
+## 🚀 Démo
+
+👉 [Voir le jeu en ligne sur Vercel](https://snake-game-xi-khaki.vercel.app/)
+
+## 📦 Technologies
+
+- [Next.js](https://nextjs.org/) – Framework React
+- [TypeScript](https://www.typescriptlang.org/) – Typage statique
+- [Tailwind CSS](https://tailwindcss.com/) – Utilitaire CSS
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+
+## 🎮 Fonctionnalités
+
+- Déplacement du serpent via le clavier (flèches)
+- Apparition aléatoire de pommes
+- Incrémentation du score à chaque pomme
+- Accélération de la vitesse avec le score
+- Redémarrage du jeu après un "Game Over"
+
+## 🔧 Installation locale
 
 ```bash
+git clone https://github.com/ericraf123/Snake-Game.git
+cd Snake-Game
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Snake-Game
-# Snake-Game
