@@ -49,7 +49,7 @@ export default function GameBoard() {
         if (newHead === fruit) {
           const newSnake = [...prev, newHead];
           setFruit(generateFruit(newSnake));
-          setScore(prevScore => prevScore + 0.5); // Increment score only when fruit is eaten
+          setScore(prevScore => prevScore + 1); // Increment score only when fruit is eaten
           return newSnake;
         }
 
